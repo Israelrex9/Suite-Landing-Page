@@ -1,0 +1,250 @@
+@import url('https://fonts.googleapis.com/css2?family=Epilogue:wght@100;200;300;400;700&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #FAF8F6;
+    font-family: 'Epilogue', sans-serif;
+    /* margin-top: 50px; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+button.Primary_Default_Btn{
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 32px;
+    padding: 15px 31px;
+    color: white;
+    background-color: #172339;
+    border-radius: 6px;
+    border: none;
+    display: flex;
+}
+button.Secondary_Default_Btn{
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 32px;
+    padding: 12px 24px;
+    color: #172339;
+    background-color: #FAF8F6;
+    border-radius: 6px;
+    border-color: #172339;
+    display: flex;
+}
+
+.navbar{
+    width: 1108px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 50px;
+    margin-bottom: 67px;
+}
+.header{
+    width: 1108px;
+    height: 100%;
+    display: flex;
+    margin-bottom: 154px;
+    align-items: center;
+    justify-content: center;
+}
+
+.header-info{
+    width: 824px;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+}
+
+.head-text{
+    width: 824px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.curve-line{
+    margin-top: 45px;
+    margin-left: 37.5rem;
+    width: 100%;
+}
+.header-text{
+    justify-content: left;
+    max-width: 43rem;
+    margin: 0px;
+}
+.statistics{
+    height: 375px;
+    justify-content: space-between;
+    display: flex;
+    flex-direction: column;
+    width: 190px;
+    margin-left: 96px;
+}
+img{
+    height: 100%;
+    margin: 0px;
+    align-items: center;
+}
+.hero-image{
+    width:350px;
+    height: 600px;
+    display: flex;
+    align-items: center;
+    position: absolute;
+    right: 0;
+    z-index: -1;
+    margin: 0px;
+}
+.theader{
+    font-family: 'Epilogue';
+    font-size: 72px;
+    margin-top: 21px;
+    font-weight: normal;
+    color: #172339;
+}
+
+.bold-text{
+    font-family: 'Epilogue';
+    font-size: 72px;
+    margin: 0px;
+    font-weight: 700;
+    color: #172339;
+}
+.subheader-text{
+    width: 350px;
+    margin-top: 40px;
+    margin-bottom: 52px;
+}
+p{
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 32px;
+    margin: 0px;
+    color: #49566D;
+}
+
+h2{
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 56px;
+    color: #172339;
+    margin: 0px;
+}
+
+.testimonial{
+    height: 545px;
+    width: 1109px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    border-radius: 15px;
+    position: absolute;
+    bottom: 199px;
+    background-color: #172339;
+}
+
+.image1{
+    width: 359px;
+    height: 590px;
+    position: absolute;
+    bottom: 0;
+    left: 121px;
+    z-index: 1;
+}
+.image2{
+    width: 450px;
+    height: 450px;
+    margin: 0;
+    position: absolute;
+    bottom: 21px;
+    left: 142px;
+}
+.blur-gradient{
+    mix-blend-mode: normal;
+    opacity: 0.48;
+    filter: blur(67.957px);
+    margin-bottom: 41px;
+    right: 142px;
+}
+.curve-line2{
+    position: absolute;
+    width: 64px;
+    height: 52px;
+    left: 517px;
+    top: 161px;
+}
+
+.testy{
+    color: white;
+    position: absolute;
+    width: 350px;
+    height: 369px;
+    right: 125px;
+}
+
+.lower-head{
+    color: white;
+    font-weight: 500;
+}
+.testy-paragraph{
+    color: white;
+    font-weight: 200;
+    font-size: 20px;
+    line-height: 35px;
+    margin: 40px 0px;
+}
+.footer{
+    height: 464px;
+    width: 100%;
+    background: #F3EDE7;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    top: 350px;
+}
+.footer-text{
+    position: absolute;
+    bottom: 72px;
+    width: 1109px;
+    height: 32px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.small-logo{
+    font-family: Epilogue;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 32px;
+    letter-spacing: -0.4444444477558136px;
+}
+#copyright{
+    font-family: Epilogue;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 32px;
+    letter-spacing: 0.0833333358168602px;
+}
+.social-media{
+    display: flex;
+    justify-content: space-between;
+    width: 116px;
+    height: 20px;
+}
+#test-footer{
+    width: 100%;
+}
